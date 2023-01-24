@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 #navbar{
     positio;
 }
@@ -63,7 +66,7 @@ ul{
     align-items:center;
     justify-content:center;
     height: 100vh;
-    padding-top: 350px;
+    padding-top: 200px;
     color: #f0f0f0; /* For browsers that do not support gradients */
     background-color: #303841;
   }
@@ -193,6 +196,22 @@ ul{
     margin-bottom: 25px;
     border-top: 5px #be3144 solid;
     padding-top: 40px;
+  }
+  .socials{
+    display: flex;
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .socials p{
+    padding: 50px 25px;
+    transition: transform 0.3s ease-out;
+  }
+  .socials p:hover{
+    transform: translateY(10px);
+  }
+  .socials i{
+    padding: 5px;
   }
   .p1{
     justify-self: flex-start;
